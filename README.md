@@ -4,8 +4,6 @@ Visual Question Answering on weather images using BLIP
 
 **Visual Question Answering on weather images** using Salesforce's BLIP model.
 
-Live Demo: https://huggingface.co/spaces/YOUR_USERNAME/weather-vqa-blip
-
 ## Features
 - Upload any weather-related image (rain, snow, fog, sunrise, etc.)
 - Ask natural questions:
