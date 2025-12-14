@@ -1,25 +1,38 @@
-# blip-weather-vqa
-Visual Question Answering on weather images using BLIP
-# Weather VQA with BLIP
+# Image EDA & Visual Question Answering (VQA)
 
-**Visual Question Answering on weather images** using Salesforce's BLIP model.
+## 🔍 Project Overview
+This project performs exploratory data analysis (EDA) on images to assess quality,
+resolution, blur, and perceptual similarity. It also integrates a BLIP-based
+Visual Question Answering (VQA) model to answer natural language questions about images.
 
-## Features
-- Upload any weather-related image (rain, snow, fog, sunrise, etc.)
-- Ask natural questions:
-  - "Is it raining?"
-  - "Is the sky cloudy?"
-  - "Is this daytime or nighttime?"
-  - "Can you see the sun?"
-  - "What season does this look like?"
+## 📁 Project Structure
+- `EDA.ipynb` – Image exploratory data analysis
+- `App.ipynb` – Gradio-based interactive UI for EDA + VQA
+- `weather.zip` – Sample image dataset
 
-## Model
-- **Salesforce/blip-vqa-base** (Visual Question Answering)
-- Fast inference with cached model
+## 🛠️ Tools & Technologies
+- Python
+- OpenCV
+- Pillow
+- Gradio
+- Hugging Face Transformers (BLIP)
+- Google Colab
 
-## How to Run Locally
-```bash
-git clone https://github.com/YOUR_USERNAME/weather-vqa-blip.git
-cd weather-vqa-blip
-pip install -r requirements.txt
-python app.py
+## 🚀 How to Run
+1. Open `App.ipynb` in Google Colab
+2. Install required libraries
+3. Run all cells
+4. Use the Gradio public link to interact with the app
+
+## 📊 Key Features
+- Image size & aspect ratio analysis
+- Blur detection for quality assessment
+- Perceptual hashing for duplicate detection
+- BLIP-based Visual Question Answering
+- Clean, no-scroll Gradio UI
+
+## 🧠 Learning Outcomes
+- Image data quality analysis
+- Modular ML pipeline design
+- UI integration for ML applications
+- Practical use of transformer-based vision-language models
