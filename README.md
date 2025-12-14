@@ -8,7 +8,6 @@ Visual Question Answering (VQA) model to answer natural language questions about
 ## 📁 Project Structure
 - `EDA.ipynb` – Image exploratory data analysis
 - `App.ipynb` – Gradio-based interactive UI for EDA + VQA
-- `weather.zip` – Sample image dataset
 
 ## 🛠️ Tools & Technologies
 - Python
@@ -31,8 +30,7 @@ Visual Question Answering (VQA) model to answer natural language questions about
 - BLIP-based Visual Question Answering
 - Clean, no-scroll Gradio UI
 
-## 🧠 Learning Outcomes
-- Image data quality analysis
-- Modular ML pipeline design
-- UI integration for ML applications
-- Practical use of transformer-based vision-language models
+- ## Dataset
+The weather dataset is available on Kaggle:
+[Download here]([PASTE_DRIVE_LINK](https://www.kaggle.com/datasets/tamimresearch/weather-image-dataset))
+
