@@ -32,5 +32,5 @@ Visual Question Answering (VQA) model to answer natural language questions about
 
 - ## Dataset
 The weather dataset is available on Kaggle:
-[Download here]([PASTE_DRIVE_LINK](https://www.kaggle.com/datasets/tamimresearch/weather-image-dataset))
+Link : https://www.kaggle.com/datasets/tamimresearch/weather-image-dataset
 
